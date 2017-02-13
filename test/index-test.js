@@ -13,6 +13,8 @@ describe('index', () => {
   
 
   it('runs', () => {
-    expect(true).to.be.true
+
+    setTimeout(function(){}, 15000);
+    expect(true).toEqual(true)
   })
 })
