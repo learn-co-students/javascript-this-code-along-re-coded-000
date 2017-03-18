@@ -1,3 +1,4 @@
+
 const expect = require('expect')
 
 const fs = require('fs')
@@ -13,6 +14,6 @@ describe('index', () => {
   
 
   it('runs', () => {
-    expect(true).to.be.true
+    expect(true).toEqual.true
   })
 })
