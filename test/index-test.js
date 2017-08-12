@@ -1,5 +1,5 @@
-const expect = require('expect')
-
+// const expect = require('expect')
+var expect = require('chai').expect
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
